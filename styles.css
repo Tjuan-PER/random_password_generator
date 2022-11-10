@@ -1,134 +1,132 @@
 @import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Karla:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;1,200&display=swap');
 
 body {
-    background-color: #1F2937;
-    width: 550px;
+  background-color: #1F2937;
+  width: 550px;
 }
 
 .container{
-    padding: 115px 52px;
+  padding: 115px 52px;
 }
 
 .header {
-    border-bottom: 1px solid #2F3E53;
-    padding: 35px 0px;
+  border-bottom: 1px solid #2F3E53;
+  padding: 35px 0px;
 }
 
 h1 {
-    color: #FFFFFF;
-    font-family: 'Karla', sans-serif;
-    font-weight: 800;
+  color: #FFFFFF;
+  font-family: 'Karla', sans-serif;
+  font-weight: 800;
 }
 
 .emphasize {
-    color: #4ADF86;
+  color: #4ADF86;
 }
 
 p {
-    color: #D5D4D8;
-    font-family: Arial, Helvetica, sans-serif;
+  color: #D5D4D8;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 label {
-    color: #D5D4D8;
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 10px 0px;
-    /* border-radius: 35px; */
+  color: #D5D4D8;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 10px 0px;
+  /* border-radius: 35px; */
 }
 
 button {
-    margin-top: 15px;
-    color: #FFFFFF;
-    background-color: #4ADF86;
-    border: none;
-    border-radius: 6px;
-    padding: 9px 17px;
-    border-bottom: 3px solid #34995c;
-    border-right: 3px solid #34995c;
+  margin-top: 15px;
+  color: #FFFFFF;
+  background-color: #4ADF86;
+  border: none;
+  border-radius: 6px;
+  padding: 9px 17px;
+  border-bottom: 3px solid #34995c;
+  border-right: 3px solid #34995c;
 }
 
 button:active {
-    background-color: #4ADF86;
-    translate: 2px 2px;
+  background-color: #4ADF86;
+  translate: 2px 2px;
 }
 
 .password {
-    color: #4ADF86;
-    background-color: #273549;
-    width: 210px;
-    height: 40px;
+  color: #4ADF86;
+  background-color: #273549;
+  width: 210px;
+  height: 40px;
 }
 
 .password:active {
   color: #273549;
   background-color: #4ADF86;
-  width: 210px;
-  height: 40px;
 }
 
 .footer {
-    display: flex;
-    justify-content: space-between;
-    padding: 35px 0px;
+  display: flex;
+  justify-content: space-between;
+  padding: 35px 0px;
 }
 
 .setting {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 /* The switch - the box around the slider */
 .switch {
-    position: relative;
-    display: inline-block;
-    width: 60px;
-    height: 35px;
-  }
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 35px;
+}
   
-  /* Hide default HTML checkbox */
-  .switch input {
-    opacity: 0;
-    width: 0;
-    height: 0;
-  }
-  
-  /* The slider */
-  .slider {
-    position: absolute;
-    cursor: pointer;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: #ccc;
-    -webkit-transition: .4s;
-    transition: .4s;
-    border-radius: 35px;
-  }
-  
-  .slider:before {
-    position: absolute;
-    content: "";
-    height: 26px;
-    width: 26px;
-    left: 4px;
-    bottom: 4px;
-    background-color: white;
-    -webkit-transition: .4s;
-    transition: .4s;
-    border-radius: 50%
-  }
-  
-  input:checked + .slider {
-    background-color: #2196F3;
-  }
-  
-  input:focus + .slider {
-    box-shadow: 0 0 1px #2196F3;
-  }
-  
-  input:checked + .slider:before {
-    -webkit-transform: translateX(26px);
-    -ms-transform: translateX(26px);
-    transform: translateX(26px);
-  }
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+  border-radius: 35px;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+  border-radius: 50%
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
