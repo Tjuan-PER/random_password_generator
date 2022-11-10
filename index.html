@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"> 
+    <title>Random Password Generator</title>
+
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Generate a<br><span class="emphasize">random password</span></h1>
+            <p>Never use an insecure password again.</p>
+            <div class="settings">
+                <div class="setting">
+                    <label for="tentacles">Number of characters (8-15):</label>
+                    <input type="number" id="characters" name="characters"
+                        min="8" max="15">
+                </div>
+                <div class="setting">
+                    <p>Use symbols</p>
+                    <label class="switch">
+                        <input type="checkbox" id="useSymbol">
+                        <span class="slider round"></span>
+                    </label>
+                </div>
+                <div class="setting">
+                    <p>Use numerals</p>
+                    <label class="switch">
+                        <input type="checkbox" id="useNumeral">
+                        <span class="slider round"></span>
+                      </label>
+                </div>
+            </div>
+            <button onclick="genPasswords()">Generate passwords</button>
+        </div>
+        <div class="footer">
+            <button class="password" id="password1" onclick="copyToClipboard('password1')"></button>
+            <button class="password" id="password2" onclick="copyToClipboard('password2')"></button>
+        </div>
+    </div>
+</body>
+    <script src="index.js"></script>
+</html>
