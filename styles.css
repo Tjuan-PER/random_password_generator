@@ -59,6 +59,13 @@ button:active {
     height: 40px;
 }
 
+.password:active {
+  color: #273549;
+  background-color: #4ADF86;
+  width: 210px;
+  height: 40px;
+}
+
 .footer {
     display: flex;
     justify-content: space-between;
